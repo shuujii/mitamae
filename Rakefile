@@ -4,7 +4,7 @@ require 'shellwords'
 MRUBY_VERSION = '2.0.1'
 
 file :mruby do
-  revision = "4eb8fca14008222ad3f835c29678fa11ad2c06b5"
+  revision = "a9e27933a99c372bfd6f257c671e80cc053a9b18"
   sh "git clone https://github.com/mruby/mruby && git -C mruby reset --hard #{revision}"
 end
 
