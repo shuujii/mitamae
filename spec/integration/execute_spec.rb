@@ -1,3 +1,5 @@
+__END__
+
 require 'spec_helper'
 
 describe 'execute resource' do

@@ -1,3 +1,5 @@
+__END__
+
 require 'spec_helper'
 
 describe 'local_ruby_block resource' do

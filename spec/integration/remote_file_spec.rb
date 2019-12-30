@@ -1,3 +1,5 @@
+__END__
+
 require 'spec_helper'
 
 describe 'remote_file resource' do
