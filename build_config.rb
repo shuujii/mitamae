@@ -40,6 +40,8 @@ MRuby::Build.new do |conf|
   #conf.enable_debug
   #conf.enable_test
 
+  conf.gem_clone_dir = "#{__dir__}/mruby-repos"
+
   debug_config(conf)
   gem_config(conf)
 end
