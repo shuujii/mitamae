@@ -1,3 +1,5 @@
+MRuby::Lockfile.disable if defined?(MRuby::Lockfile)
+
 def gem_config(conf)
   #conf.gembox 'default'
 
