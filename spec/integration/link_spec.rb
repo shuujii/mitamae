@@ -1,5 +1,3 @@
-__END__
-
 require 'spec_helper'
 
 describe 'link resource' do
