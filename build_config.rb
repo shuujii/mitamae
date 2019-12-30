@@ -41,8 +41,6 @@ MRuby::Build.new do |conf|
   #conf.enable_test
 
   conf.gem_clone_dir = "#{__dir__}/mruby-repos"
-  conf.cc.flags << "-fsanitize=address"
-#  conf.linker.flags << "-fsanitize=address"
 
   debug_config(conf)
   gem_config(conf)
